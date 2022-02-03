@@ -2,7 +2,7 @@
 
 name=$(whoami)
 
-input=/home/$name
+input='.'
 output=/tmp/${name}_backup.tar.gz
 
 function find_files() {
